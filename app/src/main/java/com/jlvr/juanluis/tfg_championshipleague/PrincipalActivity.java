@@ -37,16 +37,16 @@ import com.jlvr.juanluis.tfg_championshipleague.ResultadosFireBase.resultadosFB;
 
 import java.util.Locale;
 
-public class PrincipalActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener  {
-///Menu lateral
+public class PrincipalActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener {
+    ///Menu lateral
     private Toolbar appbar;
     private DrawerLayout drawerLayout;
     private NavigationView navView;
 
     private ListView ndList;
     private ScrimInsetsFrameLayout sifl;
-///
-    private Button button0,button9,button1,buttonIdioma;
+    ///
+    private Button button0, button9, button1, buttonIdioma;
     private Button button2;
     private Button button3;
     private Button button4;
@@ -57,7 +57,7 @@ public class PrincipalActivity extends AppCompatActivity implements GoogleApiCli
 
     private SignInButton btnSignIn;
     private Button btnSignOut;
-   // private Button btnRevoke;
+    // private Button btnRevoke;
     private TextView txtNombre;
     private TextView txtEmail;
 
@@ -73,9 +73,6 @@ public class PrincipalActivity extends AppCompatActivity implements GoogleApiCli
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_principal);
 //////7Menu laterla
-
-
-
 
 
         /////////////////////////////////////
@@ -140,11 +137,11 @@ public class PrincipalActivity extends AppCompatActivity implements GoogleApiCli
 */
 /////////////////////////////////////////////////////////////////
 
-        btnSignIn = (SignInButton)findViewById(R.id.sign_in_button);
-        btnSignOut = (Button)findViewById(R.id.sign_out_button);
-       // btnRevoke = (Button)findViewById(R.id.revoke_button);
-        txtNombre = (TextView)findViewById(R.id.txtNombre);
-        txtEmail = (TextView)findViewById(R.id.txtEmail);
+        btnSignIn = (SignInButton) findViewById(R.id.sign_in_button);
+        btnSignOut = (Button) findViewById(R.id.sign_out_button);
+        // btnRevoke = (Button)findViewById(R.id.revoke_button);
+        txtNombre = (TextView) findViewById(R.id.txtNombre);
+        txtEmail = (TextView) findViewById(R.id.txtEmail);
 
         //API
         GoogleSignInOptions gso =
@@ -192,22 +189,15 @@ public class PrincipalActivity extends AppCompatActivity implements GoogleApiCli
         });
 
 
-
         updateUI(false);
 
         /////////////////////////////////////////////
 
 
+        //PAra un boton primero en xml y segundo en java:
 
 
-
-
-
-     //PAra un boton primero en xml y segundo en java:
-
-
-
-       button0 = (Button)findViewById(R.id.boton0);
+        button0 = (Button) findViewById(R.id.boton0);
         //Implementamos el evento click del botón
         button0.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -222,7 +212,7 @@ public class PrincipalActivity extends AppCompatActivity implements GoogleApiCli
             }
         });
 
-        button0 = (Button)findViewById(R.id.boton9);
+        button0 = (Button) findViewById(R.id.boton9);
         //Implementamos el evento click del botón
         button0.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -238,7 +228,7 @@ public class PrincipalActivity extends AppCompatActivity implements GoogleApiCli
         });
 
 
-        button1 = (Button)findViewById(R.id.boton1);
+        button1 = (Button) findViewById(R.id.boton1);
         //Implementamos el evento click del botón
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -252,7 +242,7 @@ public class PrincipalActivity extends AppCompatActivity implements GoogleApiCli
                 startActivity(intent);
             }
         });
-        button2 = (Button)findViewById(R.id.boton2);
+        button2 = (Button) findViewById(R.id.boton2);
         //Implementamos el evento click del botón
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -265,7 +255,7 @@ public class PrincipalActivity extends AppCompatActivity implements GoogleApiCli
             }
         });
 
-        button3 = (Button)findViewById(R.id.boton3);
+        button3 = (Button) findViewById(R.id.boton3);
         //Implementamos el evento click del botón
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -278,7 +268,7 @@ public class PrincipalActivity extends AppCompatActivity implements GoogleApiCli
             }
         });
 
-        button4 = (Button)findViewById(R.id.botonayuda);
+        button4 = (Button) findViewById(R.id.botonayuda);
         //Implementamos el evento click del botón
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -292,8 +282,8 @@ public class PrincipalActivity extends AppCompatActivity implements GoogleApiCli
         });
 
         //button Idioma
-        buttonIdioma = ((Button)findViewById(R.id.buttonIdioma));
-        textview = ((TextView)findViewById(R.id.bienvenida));
+        buttonIdioma = ((Button) findViewById(R.id.buttonIdioma));
+        textview = ((TextView) findViewById(R.id.bienvenida));
 
         buttonIdioma.setOnClickListener(
 
@@ -302,11 +292,8 @@ public class PrincipalActivity extends AppCompatActivity implements GoogleApiCli
                         showDialog();
                     }
                 });
-      
+
     }
-
-
-
 
 
     //////////////////////////////
@@ -321,8 +308,7 @@ public class PrincipalActivity extends AppCompatActivity implements GoogleApiCli
         super.onActivityResult(requestCode, resultCode, data);
 
         if (requestCode == RC_SIGN_IN) {
-            GoogleSignInResult result =
-                    Auth.GoogleSignInApi.getSignInResultFromIntent(data);
+            GoogleSignInResult result = Auth.GoogleSignInApi.getSignInResultFromIntent(data);
 
             handleSignInResult(result);
         }
@@ -346,7 +332,7 @@ public class PrincipalActivity extends AppCompatActivity implements GoogleApiCli
             btnSignIn.setVisibility(View.GONE);
             btnSignOut.setVisibility(View.VISIBLE);
 
-           // btnRevoke.setVisibility(View.VISIBLE);
+            // btnRevoke.setVisibility(View.VISIBLE);
 
             button1.setVisibility(View.VISIBLE);
             button2.setVisibility(View.VISIBLE);
@@ -360,7 +346,7 @@ public class PrincipalActivity extends AppCompatActivity implements GoogleApiCli
 
             btnSignIn.setVisibility(View.VISIBLE);
             btnSignOut.setVisibility(View.GONE);
-           // btnRevoke.setVisibility(View.GONE);
+            // btnRevoke.setVisibility(View.GONE);
 
         }
     }
@@ -402,10 +388,9 @@ public class PrincipalActivity extends AppCompatActivity implements GoogleApiCli
     }
 
 
-
     /////////////////////////
 
-    private void showDialog(){
+    private void showDialog() {
         AlertDialog.Builder b = new AlertDialog.Builder(this);
         b.setTitle(getResources().getString(R.string.str_buttonIdioma));
         //obtiene los idiomas del array de string.xml
@@ -417,14 +402,14 @@ public class PrincipalActivity extends AppCompatActivity implements GoogleApiCli
             public void onClick(DialogInterface dialog, int which) {
 
                 dialog.dismiss();
-                switch(which){
+                switch (which) {
                     case 0:
                         locale = new Locale("en");
-                        config.locale =locale;
+                        config.locale = locale;
                         break;
                     case 1:
                         locale = new Locale("es");
-                        config.locale =locale;
+                        config.locale = locale;
                         break;
 
                 }
@@ -439,20 +424,20 @@ public class PrincipalActivity extends AppCompatActivity implements GoogleApiCli
         b.show();
     }
 
- /*   @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menulateral, menu);
-        return true;
-    }
-*/
+    /*   @Override
+       public boolean onCreateOptionsMenu(Menu menu) {
+           // Inflate the menu; this adds items to the action bar if it is present.
+           getMenuInflater().inflate(R.menu.menulateral, menu);
+           return true;
+       }
+   */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
 
-        switch(item.getItemId()) {
+        switch (item.getItemId()) {
             case android.R.id.home:
                 drawerLayout.openDrawer(GravityCompat.START);
                 return true;
@@ -468,7 +453,6 @@ public class PrincipalActivity extends AppCompatActivity implements GoogleApiCli
                 //Iniciamos la nueva actividad
                 startActivity(intent2);
                 break;
-
 
 
         }
