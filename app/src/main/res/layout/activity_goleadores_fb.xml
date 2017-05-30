@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark"
+    tools:context="com.jlvr.juanluis.tfg_championshipleague.GoleadoresFireBase.goleadoresFB">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/listaG"
+        android:layout_width="338dp"
+        android:layout_height="433dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="26dp"
+        android:weightSum="1">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/lstgoleadores"
+            android:layout_width="262dp"
+            android:layout_height="301dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="-141dp"/>
+    </LinearLayout>
+
+
+
+
+    </android.support.constraint.ConstraintLayout>

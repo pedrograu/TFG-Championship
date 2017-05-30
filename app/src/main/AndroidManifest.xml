@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.jlvr.juanluis.tfg_championshipleague"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".PrincipalActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Clasificacion.Clasificacion"
+            android:label="@string/title_activity_clasificacion">
+        </activity>
+        <activity
+            android:name=".Resultados.Resultados"
+            android:label="@string/title_activity_resultados">
+        </activity>
+        <activity
+            android:name=".Liga.GestionLiga"
+            android:label="@string/title_activity_gestion_liga">
+        </activity>
+        <activity
+            android:name=".Equipo.AnyadirEquipo"
+            android:label="@string/title_activity_anyadir_equipo">
+        </activity>
+        <activity
+            android:name=".Equipo.EliminarEquipo"
+            android:label="@string/title_activity_eliminar_equipo">
+        </activity>
+        <activity
+            android:name=".Resultados.NuevosResutados"
+            android:label="@string/title_activity_nuevos_resutados">
+        </activity>
+        <activity
+            android:name=".Equipo.TrayectoriaEquipo"
+            android:label="@string/title_activity_trayectoria_equipo">
+        </activity>
+        <activity
+            android:name=".Clasificacion.ClasificacionFormulario"
+            android:label="@string/title_activity_clasificacion_formulario">
+        </activity>
+        <activity
+            android:name=".Resultados.ResultadosFormularios"
+            android:label="@string/title_activity_formulario_resultados">
+        </activity>
+        <activity
+            android:name=".Equipo.Equipos"
+            android:label="@string/title_activity_equipos">
+        </activity>
+        <activity
+            android:name=".Equipo.EquiposFormularios"
+            android:label="@string/title_activity_equipos_formularios">
+        </activity>
+        <activity
+            android:name=".Ayuda"
+            android:label="@string/title_activity_ayuda">
+        </activity>
+        <activity android:name=".ResultadosFireBase.resultadosFB">
+        </activity>
+        <activity android:name=".ResultadosFireBase.ListaResult">
+        </activity>
+        <activity android:name=".ClasficacionFireBase.clasificacionFB">
+        </activity>
+        <activity android:name=".ClasficacionFireBase.lista_Clasificacion">
+        </activity>
+        <activity android:name=".GoleadoresFireBase.listaGoleadores">
+        </activity>
+        <activity android:name=".GoleadoresFireBase.goleadoresFB">
+        </activity>
+        <activity android:name=".MenuLateral">
+        </activity>
+        <activity
+            android:name=".NavegacionLateral"
+            android:label="@string/title_activity_navegacion_lateral"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".Contenido">
+        </activity>
+        <activity android:name=".Fragment1">
+        </activity>
+        <activity android:name=".Fragment2">
+        </activity>
+        <activity android:name=".NuevoTorneo">
+        </activity>
+        <activity android:name=".NuevoPartido">
+        </activity>
+        <activity android:name=".NuevoGoleador">
+        </activity>
+    </application>
+
+</manifest>

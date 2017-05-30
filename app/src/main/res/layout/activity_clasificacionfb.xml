@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark"
+    tools:context="com.jlvr.juanluis.tfg_championshipleague.ClasficacionFireBase.clasificacionFB">
+
+
+    <LinearLayout
+        android:id="@+id/Texto"
+        android:layout_width="185dp"
+        android:layout_height="49dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/TituloC"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_weight="1"
+            android:ems="20"
+            android:text="@string/clasificacion"
+            android:textColor="#ffffffff"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:textStyle="bold"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/buttonOrdenarC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/buttonOrdenar"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="460dp"
+        tools:layout_editor_absoluteX="12dp"/>
+
+    <LinearLayout
+        android:id="@+id/clasificacion"
+        android:layout_width="324dp"
+        android:layout_height="393dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="80dp">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/lstClasificacion"
+            android:layout_width="match_parent"
+            android:layout_height="402dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="-141dp"
+            />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

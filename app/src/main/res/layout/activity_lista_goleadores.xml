@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jlvr.juanluis.tfg_championshipleague.GoleadoresFireBase.listaGoleadores">
+
+
+    <RelativeLayout
+
+        android:id="@+id/cajitaGoles"
+        android:layout_width="289dp"
+        android:layout_height="256dp"
+        android:background="@android:color/holo_blue_dark"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="102dp">
+
+
+        <TextView
+            android:id="@+id/NombreJugador"
+            android:layout_width="131dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:textColor="#ffffffff"
+            tools:layout_editor_absoluteX="183dp"
+            tools:layout_editor_absoluteY="54dp"/>
+
+        <TextView
+            android:id="@+id/golesMArcados"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+
+            android:layout_alignBaseline="@+id/NombreJugador"
+            android:layout_alignBottom="@+id/NombreJugador"
+            android:layout_marginStart="40dp"
+            android:layout_toEndOf="@+id/NombreJugador"/>
+
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

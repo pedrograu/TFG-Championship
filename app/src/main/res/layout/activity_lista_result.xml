@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="60dp"
+    android:background="@android:color/holo_green_dark"
+    android:visibility="visible"
+    tools:context="com.jlvr.juanluis.tfg_championshipleague.ResultadosFireBase.ListaResult">
+
+
+    <RelativeLayout
+
+        android:id="@+id/cajita"
+        android:layout_width="291dp"
+        android:layout_height="419dp"
+        android:background="@android:color/holo_blue_dark"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="-44dp">
+
+
+        <TextView
+            android:id="@+id/lblGolesLocal"
+            android:layout_width="63dp"
+            android:layout_height="60dp"
+            android:textColor="#ffffffff"
+            tools:layout_editor_absoluteX="183dp"
+            tools:layout_editor_absoluteY="54dp"
+            android:layout_above="@+id/lblGolesVisitante"
+            android:layout_alignParentEnd="true"/>
+
+        <TextView
+            android:id="@+id/lblPartido"
+            android:layout_width="131dp"
+            android:layout_height="68dp"
+            android:layout_above="@+id/lblEquipoLocal"
+            android:layout_alignEnd="@+id/lblGolesLocal"/>
+
+        <TextView
+            android:id="@+id/lblEquipoLocal"
+            android:layout_width="131dp"
+            android:layout_height="68dp"
+            android:textColor="#ffffffff"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="26dp"/>
+
+        <TextView
+            android:id="@+id/lblEquipoVisitante"
+            android:layout_width="131dp"
+            android:layout_height="68dp"
+            android:textColor="#ffffffff"
+            android:layout_below="@+id/lblEquipoLocal"
+            android:layout_toStartOf="@+id/lblPartido"/>
+
+        <TextView
+            android:id="@+id/lblGolesVisitante"
+            android:layout_width="63dp"
+            android:layout_height="60dp"
+            android:textColor="#ffffffff"
+            android:layout_alignBottom="@+id/lblEquipoVisitante"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

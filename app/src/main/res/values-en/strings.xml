@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TFG - ChampionshipLeague</string>
+    <string name="anyadirEquipo">New Team</string>
+    <string name="ayuda1">Select "Manage Leage" to access the information of teams, and up and down of categori teams</string>
+    <string name="clasificacion">Scored</string>
+    <string name="bienvenida">Welcome to Championship Leaguqe</string>
+    <string name="button_guardar">Saved</string>
+    <string name="button_cancelar">Cancel</string>
+    <string name="ciudad">City</string>
+    <string name="descender">Down Team</string>
+    <string name="Ayuda">Help</string>
+    <string name="action_settings">By J.L.V.R</string>
+    <string name="actualizar">Actuality</string>
+    <string name="anyadir">Add</string>
+    <string name="eliminar">Delete</string>
+    <string name="eliminarEquipo">Delete Team</string>
+    <string name="eliminarJornada">Delete Journal</string>
+    <string name="equipo">Manage Team</string>
+    <string name="equipo_crear">Up Team</string>
+    <string name="equipo_crear_confirmacion">Team up!</string>
+    <string name="equipo_crear_titulo">New Team</string>
+    <string name="equipo_eliminar">Down Team</string>
+    <string name="equipo_eliminar_confirmacion">Team Down!</string>
+    <string name="equipo_eliminar_titulo">Down Team</string>
+    <string name="gestionEquipo">Information of Team</string>
+    <string name="gestionLiga">Manage League</string>
+    <string name="hello_world"></string>
+    <string name="infoEquipo">Information of Team</string>
+    <string name="jornada">New Journal</string>
+    <string name="jornadas">Select Journal : </string>
+    <string name="label_empatados"></string>
+    <string name="label_equipo">Team</string>
+    <string name="label_gContra"></string>
+    <string name="volver">Back</string>
+    <string name="str_buttonIdioma">Change Language</string>
+    <string name="desconectar">Log Out</string>
+</resources>

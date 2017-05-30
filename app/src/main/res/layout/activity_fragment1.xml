@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jlvr.juanluis.tfg_championshipleague.Fragment1">
+
+    <Button android:id="@+id/lateralClasificacionML"
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:text="@string/title_activity_prueba_firebase"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:textColor="#ffffffff"
+            android:background="#942b2b2b"
+        />
+
+</FrameLayout>

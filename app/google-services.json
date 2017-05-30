@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "387778829374",
+    "firebase_url": "https://tfg-championshipleague.firebaseio.com",
+    "project_id": "tfg-championshipleague",
+    "storage_bucket": "tfg-championshipleague.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387778829374:android:023561866b2770e6",
+        "android_client_info": {
+          "package_name": "com.jlvr.juanluis.tfg_championshipleague"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387778829374-egm56bkh7adnnu1chitmmlqgi6koipfh.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "387778829374-cg6p22lcqvmbi6tt17jk7f5r0h7r9ngr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jlvr.juanluis.tfg_championshipleague",
+            "certificate_hash": "c853e6646281102d927985526a76c120685a1fe6"
+          }
+        },
+        {
+          "client_id": "387778829374-tl4q1g2tktkoh6butdtpeqkciiugpc07.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkgTZTOw5IVTItgWfLv7XxzZUyt119PXk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387778829374-egm56bkh7adnnu1chitmmlqgi6koipfh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
