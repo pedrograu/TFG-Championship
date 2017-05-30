@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TFG-Championship.iml" filepath="$PROJECT_DIR$/TFG-Championship.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TFG-Championship-Git.iml" filepath="$PROJECT_DIR$/TFG-Championship-Git.iml" />
       <module fileurl="file://$PROJECT_DIR$/TFG-ChampionshipLeague.iml" filepath="$PROJECT_DIR$/TFG-ChampionshipLeague.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

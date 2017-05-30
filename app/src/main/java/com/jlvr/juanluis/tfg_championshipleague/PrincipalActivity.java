@@ -9,6 +9,7 @@ import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.design.internal.ScrimInsetsFrameLayout;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.Fragment;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
@@ -78,7 +79,7 @@ public class PrincipalActivity extends AppCompatActivity implements GoogleApiCli
         /////////////////////////////////////
         ////////////////////////////////////////
         ////////////////////////
-  /*   //  setContentView(R.layout.activity_menu_lateral);
+//  setContentView(R.layout.activity_menu_lateral);
         //setContentView(R.layout.activity_contenido);
 
         //appbar = (Toolbar)findViewById(R.id.appbar);
@@ -134,7 +135,7 @@ public class PrincipalActivity extends AppCompatActivity implements GoogleApiCli
                         return true;
                     }
                 });
-*/
+
 /////////////////////////////////////////////////////////////////
 
         btnSignIn = (SignInButton) findViewById(R.id.sign_in_button);
