@@ -78,11 +78,6 @@
         </activity>
         <activity android:name=".MenuLateral">
         </activity>
-        <activity
-            android:name=".NavegacionLateral"
-            android:label="@string/title_activity_navegacion_lateral"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
         <activity android:name=".Contenido">
         </activity>
         <activity android:name=".Fragment1">
